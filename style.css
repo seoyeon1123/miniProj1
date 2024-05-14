@@ -99,7 +99,7 @@ body {
   overflow: hidden;
   cursor: default;
   word-wrap: break-word;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .to-do-list li .icon {
