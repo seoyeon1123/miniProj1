@@ -27,7 +27,7 @@ body {
 .card {
   font-family: 'Orbit', sans-serif;
   background-color: white;
-  max-width: 400px;
+  max-width: 600px;
   margin: 120px auto;
   padding: 25px;
   border-radius: 5px;
@@ -37,14 +37,14 @@ body {
 
 .card .card__title {
   font-family: 'Poetsen One';
-  font-size: 30px;
+  font-size: 3em;
   font-weight: 700;
 }
 
 .card .input__field {
-  margin: 20px 0;
+  margin: 30px 0;
   display: flex;
-  height: 25px;
+  height: 40px;
 }
 
 .input__field input {
@@ -61,7 +61,7 @@ body {
 }
 
 .input__field button {
-  width: 30px;
+  width: 40px;
   height: 100%;
   color: #fff;
   margin-left: 5px;
@@ -99,7 +99,7 @@ body {
   overflow: hidden;
   cursor: default;
   word-wrap: break-word;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .to-do-list li .icon {
@@ -123,7 +123,7 @@ body {
   transform: translateY(-50%); /* 세로 중앙 정렬 */
   color: #ff7a74; /* 아이콘 색상 설정 */
   cursor: pointer; /* 마우스 커서 모양 변경 */
-  font-size: 17px;
+  font-size: 30px;
 }
 .card .card__footer {
   display: flex;
@@ -131,16 +131,18 @@ body {
   margin-top: 20px;
   align-items: center;
   justify-content: space-between;
+  font-size: 20px;
 }
 
 .card .card__footer button {
   padding: 4px 8px;
-  border-radius: 3px;
+  border-radius: 5px;
   border: none;
   outline: none;
   color: #fff;
+  font-family: 'Orbit', sans-serif;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 17px;
   margin-left: 10px;
   background-color: #ff6d70;
   cursor: pointer;
