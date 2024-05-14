@@ -29,12 +29,15 @@ $addBtn.addEventListener('click', function () {
 
 // 전체 삭제 버튼 클릭 이벤트
 $deleteBtn.addEventListener('click', function () {
+  // 모든 할 일 목록 아이템을 삭제합니다.
+  while ($todoList.firstChild) {
+    $todoList.firstChild.remove();
+  }
+
   // 할 일 목록 초기화
   todoList = [];
   // 로컬 스토리지 업데이트
   updateLocalStorage();
-  // 목록 UI 업데이트
-  $todoList.innerHTML = '';
   // 목록 개수 업데이트
   updateListCount();
 });
