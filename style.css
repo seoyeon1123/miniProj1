@@ -18,6 +18,8 @@
 
 body {
   background-image: url('./배경.jpg');
+  background-size: cover; /* 배경 이미지를 화면에 꽉 차게 설정 */
+  background-position: center; /* 배경 이미지를 중앙으로 정렬 */
   height: 100vh;
   padding: 10px;
 }
@@ -148,23 +150,4 @@ body {
 
 .card__footer button.active {
   opacity: 1;
-}
-
-@media screen and (max-width: 767px) {
-  .card {
-    min-height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* card 내의 요소를 맨 위와 맨 아래로 분산 정렬 */
-  }
-
-  .card__title {
-    font-family: 'Poetsen One';
-    font-size: 40px;
-    font-weight: 700;
-  }
-
-  .card__footer {
-    align-self: flex-end; /* footer 요소를 card 내에서 아래쪽으로 이동 */
-  }
 }
